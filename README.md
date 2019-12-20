@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+The biggest difference is .map returns a new array while .forEach mutates the original array.
+
 2. What is the difference between a function and a method?
+
+A method is a function that is defined as a protperty of an object.  A regural function is not.
 
 3. What is closure?
 
+Closure gives you acces to an outher function's scope from an inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+When 'this' is used in global scope the value of 'this' is the window object.
+When 'this' is used in implicit binding the value of 'this' is the object left of the dot.
+When 'this' is used in new binding 'this' is equal to the specific instance of the object that is created.
+When 'this' is used in Explicit binding 'this' is explicitly defined.
+
 5. Why do we need super() in an extended class?
+
+We need super() to call methods of a parent class.
 
 ## Project Set up
 
